@@ -1,0 +1,10 @@
+C:\Users\vukas\OneDrive\Радна површина\SmartThermoregulator\SmartThermoregulator\bin\Debug\SmartThermoregulator.exe.config
+C:\Users\vukas\OneDrive\Радна површина\SmartThermoregulator\SmartThermoregulator\bin\Debug\SmartThermoregulator.exe
+C:\Users\vukas\OneDrive\Радна површина\SmartThermoregulator\SmartThermoregulator\bin\Debug\SmartThermoregulator.pdb
+C:\Users\vukas\OneDrive\Радна површина\SmartThermoregulator\SmartThermoregulator\obj\Debug\Interface.csproj.AssemblyReference.cache
+C:\Users\vukas\OneDrive\Радна површина\SmartThermoregulator\SmartThermoregulator\obj\Debug\SmartThermoregulator.Form1.resources
+C:\Users\vukas\OneDrive\Радна површина\SmartThermoregulator\SmartThermoregulator\obj\Debug\SmartThermoregulator.Properties.Resources.resources
+C:\Users\vukas\OneDrive\Радна површина\SmartThermoregulator\SmartThermoregulator\obj\Debug\Interface.csproj.GenerateResource.cache
+C:\Users\vukas\OneDrive\Радна површина\SmartThermoregulator\SmartThermoregulator\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+C:\Users\vukas\OneDrive\Радна површина\SmartThermoregulator\SmartThermoregulator\obj\Debug\SmartThermoregulator.exe
+C:\Users\vukas\OneDrive\Радна површина\SmartThermoregulator\SmartThermoregulator\obj\Debug\SmartThermoregulator.pdb
