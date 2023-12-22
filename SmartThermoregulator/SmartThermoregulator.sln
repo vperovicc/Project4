@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Device", "..\Device\Device.csproj", "{77E0BBB3-8701-4021-B6F2-67698DA6BD36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regulator", "..\Regulator\Regulator.csproj", "{8D1B4A48-3451-482B-87AF-BE68E3AFAEC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heater", "..\Heater\Heater.csproj", "{EB0F8F65-B5F2-40B0-89F3-AC7A7BD6FBC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{77E0BBB3-8701-4021-B6F2-67698DA6BD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77E0BBB3-8701-4021-B6F2-67698DA6BD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77E0BBB3-8701-4021-B6F2-67698DA6BD36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1B4A48-3451-482B-87AF-BE68E3AFAEC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1B4A48-3451-482B-87AF-BE68E3AFAEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1B4A48-3451-482B-87AF-BE68E3AFAEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1B4A48-3451-482B-87AF-BE68E3AFAEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB0F8F65-B5F2-40B0-89F3-AC7A7BD6FBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0F8F65-B5F2-40B0-89F3-AC7A7BD6FBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0F8F65-B5F2-40B0-89F3-AC7A7BD6FBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0F8F65-B5F2-40B0-89F3-AC7A7BD6FBC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

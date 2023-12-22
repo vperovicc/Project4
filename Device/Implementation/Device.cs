@@ -7,7 +7,7 @@ using System.ComponentModel;
 using Device.Interface;
 using Device.Implementation;
 
-namespace Device.Implementation
+namespace Device
 {
     public class Device : MarshalByRefObject, IDevice, INotifyPropertyChanged
     {
