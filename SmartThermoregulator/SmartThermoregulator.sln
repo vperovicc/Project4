@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33423.256
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface.csproj", "{6FD2F75C-3F22-442B-899D-4FF8EBD69CAC}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heater", "..\Heater\Heater.csproj", "{EB0F8F65-B5F2-40B0-89F3-AC7A7BD6FBC3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "..\Database\Database.csproj", "{748248BC-4D52-4205-8B09-9B78F98E89CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log", "..\Log\Log.csproj", "{9AAB0384-0AFE-4B3E-812E-6E6E649F30D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{748248BC-4D52-4205-8B09-9B78F98E89CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{748248BC-4D52-4205-8B09-9B78F98E89CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{748248BC-4D52-4205-8B09-9B78F98E89CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AAB0384-0AFE-4B3E-812E-6E6E649F30D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AAB0384-0AFE-4B3E-812E-6E6E649F30D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AAB0384-0AFE-4B3E-812E-6E6E649F30D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AAB0384-0AFE-4B3E-812E-6E6E649F30D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

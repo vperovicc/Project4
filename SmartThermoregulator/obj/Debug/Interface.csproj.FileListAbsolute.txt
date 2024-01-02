@@ -28,3 +28,13 @@ C:\Users\stefa\Desktop\projekatThermoregulator\SmartThermoregulator\obj\Debug\In
 C:\Users\stefa\Desktop\projekatThermoregulator\SmartThermoregulator\obj\Debug\Interface.csproj.CoreCompileInputs.cache
 C:\Users\stefa\Desktop\projekatThermoregulator\SmartThermoregulator\obj\Debug\SmartThermoregulator.exe
 C:\Users\stefa\Desktop\projekatThermoregulator\SmartThermoregulator\obj\Debug\SmartThermoregulator.pdb
+F:\Projekat\SmartThermoregulator\bin\Debug\SmartThermoregulator.exe.config
+F:\Projekat\SmartThermoregulator\bin\Debug\SmartThermoregulator.exe
+F:\Projekat\SmartThermoregulator\bin\Debug\SmartThermoregulator.pdb
+F:\Projekat\SmartThermoregulator\obj\Debug\Interface.csproj.AssemblyReference.cache
+F:\Projekat\SmartThermoregulator\obj\Debug\SmartThermoregulator.Form1.resources
+F:\Projekat\SmartThermoregulator\obj\Debug\SmartThermoregulator.Properties.Resources.resources
+F:\Projekat\SmartThermoregulator\obj\Debug\Interface.csproj.GenerateResource.cache
+F:\Projekat\SmartThermoregulator\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+F:\Projekat\SmartThermoregulator\obj\Debug\SmartThermoregulator.exe
+F:\Projekat\SmartThermoregulator\obj\Debug\SmartThermoregulator.pdb
