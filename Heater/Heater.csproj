@@ -46,9 +46,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Database\Database.csproj">
+      <Project>{748248bc-4d52-4205-8b09-9b78f98e89cd}</Project>
+      <Name>Database</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Device\Device.csproj">
       <Project>{77e0bbb3-8701-4021-b6f2-67698da6bd36}</Project>
       <Name>Device</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Log\Log.csproj">
+      <Project>{9aab0384-0afe-4b3e-812e-6e6e649f30d3}</Project>
+      <Name>Log</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

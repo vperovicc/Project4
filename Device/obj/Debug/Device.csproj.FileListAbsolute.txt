@@ -1,0 +1,7 @@
+F:\Projekat\Device\bin\Debug\Device.exe.config
+F:\Projekat\Device\bin\Debug\Device.exe
+F:\Projekat\Device\bin\Debug\Device.pdb
+F:\Projekat\Device\obj\Debug\Device.csproj.AssemblyReference.cache
+F:\Projekat\Device\obj\Debug\Device.csproj.CoreCompileInputs.cache
+F:\Projekat\Device\obj\Debug\Device.exe
+F:\Projekat\Device\obj\Debug\Device.pdb

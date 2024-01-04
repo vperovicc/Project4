@@ -1,0 +1,10 @@
+F:\Projekat\Regulator\bin\Debug\Regulator.dll
+F:\Projekat\Regulator\bin\Debug\Regulator.pdb
+F:\Projekat\Regulator\bin\Debug\Device.exe
+F:\Projekat\Regulator\bin\Debug\Device.pdb
+F:\Projekat\Regulator\bin\Debug\Device.exe.config
+F:\Projekat\Regulator\obj\Debug\Regulator.csproj.AssemblyReference.cache
+F:\Projekat\Regulator\obj\Debug\Regulator.csproj.CoreCompileInputs.cache
+F:\Projekat\Regulator\obj\Debug\Regulator.csproj.CopyComplete
+F:\Projekat\Regulator\obj\Debug\Regulator.dll
+F:\Projekat\Regulator\obj\Debug\Regulator.pdb

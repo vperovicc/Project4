@@ -9,6 +9,7 @@ using Device.Interface;
 
 namespace Device.Implementation
 {
+    [Serializable]
     public class PeriodicTimer : IPeriodicTimer
     {
         public async Task PeriodicnaProvera(TimeSpan i, CancellationToken c)

@@ -1,0 +1,10 @@
+F:\Projekat\Heater\bin\Debug\Heater.dll
+F:\Projekat\Heater\bin\Debug\Heater.pdb
+F:\Projekat\Heater\bin\Debug\Device.exe
+F:\Projekat\Heater\bin\Debug\Device.pdb
+F:\Projekat\Heater\bin\Debug\Device.exe.config
+F:\Projekat\Heater\obj\Debug\Heater.csproj.AssemblyReference.cache
+F:\Projekat\Heater\obj\Debug\Heater.csproj.CoreCompileInputs.cache
+F:\Projekat\Heater\obj\Debug\Heater.csproj.CopyComplete
+F:\Projekat\Heater\obj\Debug\Heater.dll
+F:\Projekat\Heater\obj\Debug\Heater.pdb

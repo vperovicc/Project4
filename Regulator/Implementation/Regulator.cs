@@ -1,4 +1,4 @@
-﻿using Regulator.Interface;
+﻿using Heater.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Regulator.Implementation
+namespace Heater
 {
    public class Regulator : IRegulator
     {

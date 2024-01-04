@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Log.Implementation
+namespace Log
 {
     public class Log : ILog
     {
