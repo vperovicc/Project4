@@ -1,0 +1,5 @@
+F:\Projekat\SmartThermoregulator\Log\obj\Debug\Log.csproj.CoreCompileInputs.cache
+F:\Projekat\SmartThermoregulator\Log\bin\Debug\Log.dll
+F:\Projekat\SmartThermoregulator\Log\bin\Debug\Log.pdb
+F:\Projekat\SmartThermoregulator\Log\obj\Debug\Log.dll
+F:\Projekat\SmartThermoregulator\Log\obj\Debug\Log.pdb

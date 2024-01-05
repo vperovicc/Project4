@@ -1,0 +1,14 @@
+F:\Projekat\SmartThermoregulator\Common\bin\Debug\Common.dll
+F:\Projekat\SmartThermoregulator\Common\bin\Debug\Common.pdb
+F:\Projekat\SmartThermoregulator\Common\bin\Debug\Device.exe
+F:\Projekat\SmartThermoregulator\Common\bin\Debug\Heater.dll
+F:\Projekat\SmartThermoregulator\Common\bin\Debug\Regulator.dll
+F:\Projekat\SmartThermoregulator\Common\bin\Debug\Device.pdb
+F:\Projekat\SmartThermoregulator\Common\bin\Debug\Device.exe.config
+F:\Projekat\SmartThermoregulator\Common\bin\Debug\Heater.pdb
+F:\Projekat\SmartThermoregulator\Common\bin\Debug\Regulator.pdb
+F:\Projekat\SmartThermoregulator\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+F:\Projekat\SmartThermoregulator\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+F:\Projekat\SmartThermoregulator\Common\obj\Debug\Common.csproj.CopyComplete
+F:\Projekat\SmartThermoregulator\Common\obj\Debug\Common.dll
+F:\Projekat\SmartThermoregulator\Common\obj\Debug\Common.pdb

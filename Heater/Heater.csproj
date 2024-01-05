@@ -54,8 +54,8 @@
       <Project>{77e0bbb3-8701-4021-b6f2-67698da6bd36}</Project>
       <Name>Device</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Log\Log.csproj">
-      <Project>{9aab0384-0afe-4b3e-812e-6e6e649f30d3}</Project>
+    <ProjectReference Include="..\SmartThermoregulator\Log\Log.csproj">
+      <Project>{df04ce4d-22cf-4da0-955e-b3ce0a2894f1}</Project>
       <Name>Log</Name>
     </ProjectReference>
   </ItemGroup>

@@ -8,3 +8,7 @@ F:\Projekat\Regulator\obj\Debug\Regulator.csproj.CoreCompileInputs.cache
 F:\Projekat\Regulator\obj\Debug\Regulator.csproj.CopyComplete
 F:\Projekat\Regulator\obj\Debug\Regulator.dll
 F:\Projekat\Regulator\obj\Debug\Regulator.pdb
+F:\Projekat\Regulator\bin\Debug\Heater.dll
+F:\Projekat\Regulator\bin\Debug\Log.dll
+F:\Projekat\Regulator\bin\Debug\Heater.pdb
+F:\Projekat\Regulator\bin\Debug\Log.pdb
