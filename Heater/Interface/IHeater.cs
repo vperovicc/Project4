@@ -8,6 +8,6 @@ namespace Heater.Interface
 {
    public interface IHeater
     {
-        void PokreniZagrevanje();
+        void StartHeatingProcess();
     }
 }

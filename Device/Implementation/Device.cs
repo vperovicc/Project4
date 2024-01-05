@@ -12,12 +12,12 @@ namespace Device
     public class Device : MarshalByRefObject, IDevice, INotifyPropertyChanged
     {
         private int deviceID;
-        private double temp;
+        private double temperature;
 
         public Device()
         {
             deviceID = new Random().Next(0, 10000);
-            temp = Math.Round((new Random().Next(-10, 37) + (new Random().NextDouble())),2);
+            temperature = Math.Round((new Random().Next(-10, 37) + (new Random().NextDouble())),2);
 
             NewCalculation();
         }
@@ -25,10 +25,10 @@ namespace Device
         public Device(int id, double t)
         {
             deviceID = id;
-            temp = t;
+            temperature = t;
         }
 
-        public int devID
+        public int DeviceID
         {
             get => deviceID;
             set => deviceID = value;
@@ -36,12 +36,12 @@ namespace Device
 
         public double Temperature
         {
-            get { return temp; }
+            get { return temperature; }
             set
             {
-                if(value!=temp)
+                if(value!= temperature)
                 {
-                    temp = value;
+                    temperature = value;
                     OnPropertyChanged("temperatura");
                 }
             }
@@ -65,9 +65,9 @@ namespace Device
         {
             PeriodicTimer time = new PeriodicTimer();
 
-            await time.SlanjeMerenja(devID, temp);
+            await time.SlanjeMerenja(deviceID, temperature);
 
-            temp = Math.Round((new Random().Next(-10, 37) + (new Random().NextDouble())), 2);
+            temperature = Math.Round((new Random().Next(-10, 37) + (new Random().NextDouble())), 2);
         }
     }
 }

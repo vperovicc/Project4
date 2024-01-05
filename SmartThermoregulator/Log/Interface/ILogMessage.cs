@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Log.Interface
+namespace Loggging.Interface
 {
     public interface ILogMessage
     {

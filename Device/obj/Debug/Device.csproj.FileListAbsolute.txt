@@ -5,3 +5,10 @@ F:\Projekat\Device\obj\Debug\Device.csproj.AssemblyReference.cache
 F:\Projekat\Device\obj\Debug\Device.csproj.CoreCompileInputs.cache
 F:\Projekat\Device\obj\Debug\Device.exe
 F:\Projekat\Device\obj\Debug\Device.pdb
+C:\Users\stefa\Desktop\Projekat\Device\bin\Debug\Device.exe.config
+C:\Users\stefa\Desktop\Projekat\Device\bin\Debug\Device.exe
+C:\Users\stefa\Desktop\Projekat\Device\bin\Debug\Device.pdb
+C:\Users\stefa\Desktop\Projekat\Device\obj\Debug\Device.csproj.AssemblyReference.cache
+C:\Users\stefa\Desktop\Projekat\Device\obj\Debug\Device.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Desktop\Projekat\Device\obj\Debug\Device.exe
+C:\Users\stefa\Desktop\Projekat\Device\obj\Debug\Device.pdb

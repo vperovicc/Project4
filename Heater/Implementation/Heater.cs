@@ -13,9 +13,7 @@ namespace Heater
         public bool IsHeaterOn { get; set; }
         public List<Device.Device> devices { get; set; }
 
-
-
-        public void PokreniZagrevanje()
+        public void StartHeatingProcess()
         {
             throw new NotImplementedException();
         }

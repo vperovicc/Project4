@@ -1,0 +1,6 @@
+C:\Users\stefa\Desktop\Projekat\SmartThermoregulator\Log\bin\Debug\Log.dll
+C:\Users\stefa\Desktop\Projekat\SmartThermoregulator\Log\bin\Debug\Log.pdb
+C:\Users\stefa\Desktop\Projekat\SmartThermoregulator\Log\obj\Debug\Logging.csproj.AssemblyReference.cache
+C:\Users\stefa\Desktop\Projekat\SmartThermoregulator\Log\obj\Debug\Logging.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Desktop\Projekat\SmartThermoregulator\Log\obj\Debug\Log.dll
+C:\Users\stefa\Desktop\Projekat\SmartThermoregulator\Log\obj\Debug\Log.pdb

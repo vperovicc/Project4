@@ -12,3 +12,17 @@ F:\Projekat\Regulator\bin\Debug\Heater.dll
 F:\Projekat\Regulator\bin\Debug\Log.dll
 F:\Projekat\Regulator\bin\Debug\Heater.pdb
 F:\Projekat\Regulator\bin\Debug\Log.pdb
+C:\Users\stefa\Desktop\Projekat\Regulator\bin\Debug\Regulator.dll
+C:\Users\stefa\Desktop\Projekat\Regulator\bin\Debug\Regulator.pdb
+C:\Users\stefa\Desktop\Projekat\Regulator\bin\Debug\Device.exe
+C:\Users\stefa\Desktop\Projekat\Regulator\bin\Debug\Heater.dll
+C:\Users\stefa\Desktop\Projekat\Regulator\bin\Debug\Log.dll
+C:\Users\stefa\Desktop\Projekat\Regulator\bin\Debug\Device.pdb
+C:\Users\stefa\Desktop\Projekat\Regulator\bin\Debug\Device.exe.config
+C:\Users\stefa\Desktop\Projekat\Regulator\bin\Debug\Heater.pdb
+C:\Users\stefa\Desktop\Projekat\Regulator\bin\Debug\Log.pdb
+C:\Users\stefa\Desktop\Projekat\Regulator\obj\Debug\Regulator.csproj.AssemblyReference.cache
+C:\Users\stefa\Desktop\Projekat\Regulator\obj\Debug\Regulator.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Desktop\Projekat\Regulator\obj\Debug\Regulator.csproj.CopyComplete
+C:\Users\stefa\Desktop\Projekat\Regulator\obj\Debug\Regulator.dll
+C:\Users\stefa\Desktop\Projekat\Regulator\obj\Debug\Regulator.pdb

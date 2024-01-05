@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heater", "..\Heater\Heater.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "..\Database\Database.csproj", "{748248BC-4D52-4205-8B09-9B78F98E89CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log", "Log\Log.csproj", "{DF04CE4D-22CF-4DA0-955E-B3CE0A2894F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging", "Log\Logging.csproj", "{DF04CE4D-22CF-4DA0-955E-B3CE0A2894F1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{ABBCE5D4-744A-4ED8-B481-15D9AE6B6DDB}"
 EndProject

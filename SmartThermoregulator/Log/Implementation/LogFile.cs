@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Log
+namespace Logging
 {
     public class LogFile
     {
