@@ -65,7 +65,7 @@ namespace Heater
         {
             CancellationToken ct = new CancellationToken();
             TimeSpan time = new TimeSpan(0, 0, 5); 
-            Grejac.devices = Uredjaji; 
+            Grejac.Devices = Uredjaji; 
 
             for (; !ct.IsCancellationRequested;)
             {

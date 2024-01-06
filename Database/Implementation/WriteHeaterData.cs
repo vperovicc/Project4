@@ -12,16 +12,16 @@ namespace Database.Implementation
     {
         public bool EvidencijaRada(int radniSati, string datum, decimal potrosnjaKw)
         {
-            using (IDbConnection konekcija = DatabaseConnection.GetConnection())
+            using (IDbConnection connection = DatabaseConnection.GetConnection())
             {
-                konekcija.Open();
+                connection.Open();
 
-                using (IDbCommand komanda = konekcija.CreateCommand())
+                using (IDbCommand command = connection.CreateCommand())
                 {
-                    komanda.CommandText = "INSERT INTO HEATER VALUES(" + radniSati + ", '" + datum + "'," + potrosnjaKw + ")";
-                    komanda.Prepare();
+                    command.CommandText = "INSERT INTO HEATER VALUES(" + radniSati + ", '" + datum + "'," + potrosnjaKw + ")";
+                    command.Prepare();
 
-                    return komanda.ExecuteNonQuery() != 0;
+                    return command.ExecuteNonQuery() != 0;
                 }
             }
         }
