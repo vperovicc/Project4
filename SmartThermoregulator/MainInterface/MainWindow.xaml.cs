@@ -17,6 +17,7 @@ using Common.Implementation;
 using System.IO;
 using System.Diagnostics;
 using System.Runtime.Remoting;
+using System.Threading;
 
 namespace MainInterface
 {
@@ -82,24 +83,50 @@ namespace MainInterface
 
         private void btnSacuvaj_Click(object sender, RoutedEventArgs e)
         {
+            if(devices.GetDevices().Count<4)
+            {
+                MessageBox.Show("Minimum je 4 uredjaja!","Warning", MessageBoxButton.OK,MessageBoxImage.Warning);
+                return;
+            }
 
+            if(odDnevni.SelectedIndex != -1 && doDnevni.SelectedIndex != -1 && !TempDnevna.Text.Equals(""))
+            {
+                try
+                {
+                    activeDevices.ItemsSource = display;
+
+                    int pd = Int32.Parse(odDnevni.Text);
+                    int kd = Int32.Parse(doDnevni.Text);
+
+                    if(pd>kd)
+                    {
+                        MessageBox.Show("Nevalidne vrednosti!", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+                        return;
+                    }
+
+                    checking(pd, kd);
+                    baseMode();
+                }
+                catch(Exception)
+                {
+                    MessageBox.Show("Niste uneli broj!", "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Uneli ste nevalidne vrednosti!", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
         }
 
         private void btnPocetak_Click(object sender, RoutedEventArgs e)
         {
-
+           
         }
 
         private void btnKraj_Click(object sender, RoutedEventArgs e)
         {
             Close();
         }
-
-
-
-
-
-
 
           private void baseMode()
           {
@@ -132,7 +159,52 @@ namespace MainInterface
 
           }
 
-         
-        
+        public async Task periodicTest(TimeSpan i, CancellationToken ct)
+        {
+            await Task.Delay(i, ct);
+        }
+
+        private async Task checkLeftTempr()
+        {
+            return;         //OVDE RADI OVU FUNKCIJU
+        }
+
+        private void avgTempCheck()
+        {
+            try
+            {
+                double sum = 0;
+
+                foreach (Device.Device d in devices.GetDevices())
+                {
+                    sum += d.Temperature;
+                }
+
+                sum /= devices.GetDevices().Count;
+
+                double left = Double.Parse(TempDnevna.Text) - Math.Round(sum, 2);
+
+                if(left>0)
+                {
+                    statusRegulatora.Content = "Status: Radi";
+                    statusRegulatora.Foreground = Brushes.DarkBlue;
+                    tempLeft.Content = "Preostalo: " + left.ToString().Replace(',', '.') + "°C";
+                }
+                else
+                {
+                    statusRegulatora.Content = "Status: Idle";
+                    statusRegulatora.Foreground = Brushes.DarkCyan;
+
+                    tempLeft.Content = "Preostalo: " + "0.0" + "°C";
+                    tempLeft.Foreground = Brushes.DarkCyan;
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Greška u temperaturi zagrevanja!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+
     }
 }

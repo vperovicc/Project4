@@ -52,3 +52,30 @@ C:\Users\stefa\Desktop\Projekat\Database\obj\Debug\Database.csproj.CoreCompileIn
 C:\Users\stefa\Desktop\Projekat\Database\obj\Debug\Database.csproj.CopyComplete
 C:\Users\stefa\Desktop\Projekat\Database\obj\Debug\Database.dll
 C:\Users\stefa\Desktop\Projekat\Database\obj\Debug\Database.pdb
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\Database.dll.config
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\Database.dll
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\Database.pdb
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\System.Buffers.dll
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\System.Memory.dll
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\System.Text.Json.dll
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\System.ValueTuple.dll
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\System.Buffers.xml
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\System.Memory.xml
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\System.Text.Json.xml
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\bin\Debug\System.ValueTuple.xml
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\obj\Debug\Database.csproj.AssemblyReference.cache
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\obj\Debug\Database.csproj.CopyComplete
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\obj\Debug\Database.dll
+C:\Users\vukas\OneDrive\Радна површина\Project3\Database\obj\Debug\Database.pdb

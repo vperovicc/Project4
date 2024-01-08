@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\vukas\OneDrive\Радна површина\Project3\InterfaceMain\obj\Debug\net6.0-windows\
+C:\Users\vukas\OneDrive\Радна површина\Project3\InterfaceMain\obj\Release\net6.0-windows\
 InterfaceMain
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
 C:\Users\vukas\OneDrive\Радна површина\Project3\InterfaceMain\App.xaml
 11407045341
 
 3-1233169557
-198-959410674
+198741810783
 MainWindow.xaml;
 
 True
