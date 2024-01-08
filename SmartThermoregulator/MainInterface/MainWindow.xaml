@@ -5,33 +5,150 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MainInterface"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="597">
+        Title="Smart Thermoregulator" Height="450" Width="900">
     <Grid>
-        <Label Content="Dnevni Rezim" HorizontalAlignment="Left" Margin="39,10,0,0" VerticalAlignment="Top"/>
-        <Label Content="Nocni Rezim" HorizontalAlignment="Left" Margin="178,10,0,0" VerticalAlignment="Top"/>
-        <Label Content="Od" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top"/>
-        <Label Content="Do" HorizontalAlignment="Left" Margin="10,78,0,0" VerticalAlignment="Top"/>
-        <Label Content="Temperatura" HorizontalAlignment="Left" Margin="39,111,0,0" VerticalAlignment="Top"/>
-        <Label Content="Temperatura" HorizontalAlignment="Left" Margin="178,111,0,0" VerticalAlignment="Top"/>
-        <Label Content="Od" HorizontalAlignment="Left" Margin="153,47,0,0" VerticalAlignment="Top"/>
-        <Label Content="Do" HorizontalAlignment="Left" Margin="153,78,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="cbOdDnevni" HorizontalAlignment="Left" Margin="41,51,0,0" VerticalAlignment="Top" Width="92"/>
-        <ComboBox x:Name="cbDoDnevni" HorizontalAlignment="Left" Margin="41,82,0,0" VerticalAlignment="Top" Width="92"/>
-        <ComboBox x:Name="cbOdNocni" HorizontalAlignment="Left" Margin="183,51,0,0" VerticalAlignment="Top" Width="92"/>
-        <ComboBox x:Name="cbDoNocni" HorizontalAlignment="Left" Margin="183,82,0,0" VerticalAlignment="Top" Width="92"/>
-        <TextBox x:Name="tbTempDnevna" HorizontalAlignment="Left" Height="24" Margin="41,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92"/>
-        <TextBox x:Name="tbTempNocna" HorizontalAlignment="Left" Height="24" Margin="183,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92"/>
-        <ListView x:Name="lvInformacije" HorizontalAlignment="Left" Height="243" Margin="10,166,0,0" VerticalAlignment="Top" Width="564">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Smart Thermoregulator" FontSize="19" FontWeight="Bold" Grid.Column="2" Grid.Row="0" Grid.ColumnSpan="2"  VerticalAlignment="Center" HorizontalAlignment="Center" ></Label>
+
+        <!-- INFROMACIJA O DODAVANJU UREDJAJA -->
+        <ListView Name = "activeDevices"  
+         AlternationCount = "2" FontSize="15" FontWeight="Medium" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="6" Grid.RowSpan="5">
+
             <ListView.View>
-                <GridView>
-                    <GridViewColumn/>
+                <GridView  ColumnHeaderToolTip="Uredjaji"  AllowsColumnReorder="true">
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=DeviceID}" Header="DeviceID" Width="300"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Temperature}" Header="Temperatura u okolini" Width="580"/>
                 </GridView>
             </ListView.View>
+
         </ListView>
-        <Button x:Name="btnDodaj" Content="Dodaj Uredjaj" HorizontalAlignment="Left" Margin="301,51,0,0" VerticalAlignment="Top" Width="128" Height="31"/>
-        <Button x:Name="btnPocetak" Content="Pocetak Rada" HorizontalAlignment="Left" Margin="301,87,0,0" VerticalAlignment="Top" Width="128" Height="31"/>
-        <Button x:Name="btnSacuvaj" Content="Sacuvaj Podesavanja" HorizontalAlignment="Left" Margin="434,51,0,0" VerticalAlignment="Top" Width="128" Height="31"/>
-        <Button x:Name="btnKraj" Content="Kraj Rada" HorizontalAlignment="Left" Margin="434,87,0,0" VerticalAlignment="Top" Width="128" Height="31" Click="btnKraj_Click"/>
+
+
+        <GroupBox Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="6" IsEnabled="True" Grid.RowSpan="5" Margin="10 0 10 0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <!-- Dnevni rezim-->
+                <Label FontSize="20" FontWeight="Medium" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Dnevni režim"></Label>
+                <Label FontSize="15" FontWeight="Medium" Grid.Row="1" Content="Od:" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                <ComboBox Name="odDnevni" FontSize="15" FontWeight="SemiBold" Margin="10 0 10 0" MaxHeight="25" Grid.Row="1" Grid.Column="1">
+                    <ComboBoxItem>0</ComboBoxItem>
+                    <ComboBoxItem>1</ComboBoxItem>
+                    <ComboBoxItem>2</ComboBoxItem>
+                    <ComboBoxItem>3</ComboBoxItem>
+                    <ComboBoxItem>4</ComboBoxItem>
+                    <ComboBoxItem>5</ComboBoxItem>
+                    <ComboBoxItem>6</ComboBoxItem>
+                    <ComboBoxItem>7</ComboBoxItem>
+                    <ComboBoxItem>8</ComboBoxItem>
+                    <ComboBoxItem>9</ComboBoxItem>
+                    <ComboBoxItem>10</ComboBoxItem>
+                    <ComboBoxItem>11</ComboBoxItem>
+                    <ComboBoxItem>12</ComboBoxItem>
+                    <ComboBoxItem>13</ComboBoxItem>
+                    <ComboBoxItem>14</ComboBoxItem>
+                    <ComboBoxItem>15</ComboBoxItem>
+                    <ComboBoxItem>16</ComboBoxItem>
+                    <ComboBoxItem>17</ComboBoxItem>
+                    <ComboBoxItem>18</ComboBoxItem>
+                    <ComboBoxItem>19</ComboBoxItem>
+                    <ComboBoxItem>20</ComboBoxItem>
+                    <ComboBoxItem>21</ComboBoxItem>
+                    <ComboBoxItem>22</ComboBoxItem>
+                    <ComboBoxItem>23</ComboBoxItem>
+                </ComboBox>
+
+                <Label FontSize="15" FontWeight="Medium" Content="Do:" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                <ComboBox Name="doDnevni" FontSize="15" FontWeight="Medium" Margin="10 0 10 0" MaxHeight="25" Grid.Row="2" Grid.Column="1">
+                    <ComboBoxItem>0</ComboBoxItem>
+                    <ComboBoxItem>1</ComboBoxItem>
+                    <ComboBoxItem>2</ComboBoxItem>
+                    <ComboBoxItem>3</ComboBoxItem>
+                    <ComboBoxItem>4</ComboBoxItem>
+                    <ComboBoxItem>5</ComboBoxItem>
+                    <ComboBoxItem>6</ComboBoxItem>
+                    <ComboBoxItem>7</ComboBoxItem>
+                    <ComboBoxItem>8</ComboBoxItem>
+                    <ComboBoxItem>9</ComboBoxItem>
+                    <ComboBoxItem>10</ComboBoxItem>
+                    <ComboBoxItem>11</ComboBoxItem>
+                    <ComboBoxItem>12</ComboBoxItem>
+                    <ComboBoxItem>13</ComboBoxItem>
+                    <ComboBoxItem>14</ComboBoxItem>
+                    <ComboBoxItem>15</ComboBoxItem>
+                    <ComboBoxItem>16</ComboBoxItem>
+                    <ComboBoxItem>17</ComboBoxItem>
+                    <ComboBoxItem>18</ComboBoxItem>
+                    <ComboBoxItem>19</ComboBoxItem>
+                    <ComboBoxItem>20</ComboBoxItem>
+                    <ComboBoxItem>21</ComboBoxItem>
+                    <ComboBoxItem>22</ComboBoxItem>
+                    <ComboBoxItem>23</ComboBoxItem>
+                </ComboBox>
+
+                <Label FontSize="15" FontWeight="Medium" Content="Temperatura" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                <TextBox Name="TempDnevna" FontSize="15" FontWeight="Medium" Margin="10 0 10 0" MaxHeight="25" Grid.Row="4" Grid.Column="1"/>
+
+
+                <!-- NOCNI REZIM -->
+                <Label FontSize="20" Content="Noćni Režim" FontWeight="Medium" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+                <Label FontSize="15" Content="Od:" FontWeight="Medium" Grid.Row="1" Grid.Column="2"  HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                <ComboBox IsEnabled="False" Name="odNocni" FontSize="15" FontWeight="Medium" Margin="10 0 10 0" MaxHeight="25" Grid.Row="1" Grid.Column="3"></ComboBox>
+
+                <Label FontSize="15" Content="Do:" FontWeight="Medium" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                <ComboBox IsEnabled="False" Name="doNocni" FontSize="15" FontWeight="Medium" Margin="10 0 10 0" MaxHeight="25" Grid.Row="2" Grid.Column="3"></ComboBox>
+
+                <Label FontSize="15" Content="Temperatura" FontWeight="Medium" Grid.Row="3" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                <TextBox IsEnabled="False" Name="TempNocna" FontSize="15" FontWeight="Medium" Margin="10 0 10 0" MaxHeight="25" Grid.Row="4" Grid.Column="3"/>
+
+                <!--Dugmad-->
+                <Button Name="btnDodaj" Click="btnDodaj_Click" Content="Dodaj uredjaj" FontSize="15" FontWeight="Medium" Grid.Column="4" Grid.Row="0" Grid.ColumnSpan="2" Height="30"  Margin="10 0 10 0"></Button>
+                <Button Name="btnSacuvaj"  Click="btnSacuvaj_Click" Content="Sačuvaj podašavanja" FontSize="15" FontWeight="Medium"  Grid.Column="4" Grid.Row="1" Grid.ColumnSpan="2" Height="30" VerticalAlignment="Center" Margin="10 0 10 0" ></Button>
+                <Button Name="btnPocetak" Click="btnPocetak_Click" Content="Početak rada" IsEnabled="False" FontSize="15" FontWeight="Medium"  Grid.Column="4" Grid.Row="2" Grid.ColumnSpan="2" Height="30" VerticalAlignment="Center" Margin="10 0 10 0"></Button>
+                <Button Name="btnKraj" Click="btnKraj_Click" Content="Završetak rada" FontSize="15" FontWeight="Medium" Grid.Column="4" Grid.Row="3" Grid.ColumnSpan="2" Margin="10 0 10 0" Height="30"></Button>
+
+                <Label  Name="statusRegulatora" FontSize="15" FontWeight="Medium" Grid.Column="4" Grid.Row="4" VerticalAlignment="Top"  HorizontalAlignment="Center" Foreground="Tomato" >Stanje: Ugašen</Label>
+                <Label  Name="tempLeft" FontSize="15" FontWeight="Medium" Grid.Column="5" Grid.Row="4" VerticalAlignment="Bottom" Margin="0 0 0 5"  HorizontalAlignment="Center" Foreground="SlateBlue" ></Label>
+
+            </Grid>
+        </GroupBox>
 
     </Grid>
 </Window>
