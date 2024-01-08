@@ -31,7 +31,6 @@ namespace Heater
 
         public Regulator()
         {
-
             ZeljenaDnevnaTemperatura = 0;
             ZeljenaNocnaTemperatura = 0;
             ProsecnaTemperatura = 0;
@@ -42,8 +41,6 @@ namespace Heater
             Grejac = new Heater();
 
         }
-
-
 
      
         public async void Regulation()
@@ -105,11 +102,9 @@ namespace Heater
                 JeDnevniRezim = false;
                 JeNocniRezim = true;
             }
-
-            
+   
             AverageTemp();
-
-          
+      
             if (JeDnevniRezim)
             {
                 if (ProsecnaTemperatura < ZeljenaDnevnaTemperatura)
@@ -118,8 +113,7 @@ namespace Heater
                     {
                         Log log = new Log("Ukljucivanje centralne peci!");
                         log.NewMessage();
-
-                        
+             
                         isklucena = false;
                         ukljucena = true;
                     }
@@ -134,7 +128,6 @@ namespace Heater
                         Log log = new Log("Centralna  pec je  iskljucena!");
                         log.NewMessage();
 
-                        
                         ukljucena = false;
                         isklucena = true;
                     }

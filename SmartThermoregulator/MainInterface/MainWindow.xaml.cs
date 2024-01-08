@@ -70,7 +70,7 @@ namespace MainInterface
                 }
                 else
                 {
-                    MessageBox.Show("Nije moguće dodati novi uređaj!\nPrekoračili ste granicu za dodavanje uredjaja!", "Upozorenje", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    MessageBox.Show("Prekoračili ste granicu za dodavanje uredjaja!", "Upozorenje", MessageBoxButton.OK, MessageBoxImage.Warning);
                 }
             }
             catch (Exception exc)
@@ -118,9 +118,32 @@ namespace MainInterface
             }
         }
 
-        private void btnPocetak_Click(object sender, RoutedEventArgs e)
+        private async void btnPocetak_Click(object sender, RoutedEventArgs e)
         {
-           
+
+            try
+            {
+                reg.ZeljenaNocnaTemperatura = Double.Parse(TempNocna.Text);
+
+                TempNocna.IsEnabled = false;
+                btnPocetak.IsEnabled = false;
+
+                MessageBox.Show("Regulator počinje rad!", "Informacija", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                reg.InstanceCnt = instance;   
+                reg.Regulation();
+
+                statusRegulatora.Content = "Stanje: Radi";
+                statusRegulatora.Foreground = Brushes.Blue;
+                avgTempCheck();
+
+                await checkLeftTempr();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Treba da unesete broj!", "Greška", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+
         }
 
         private void btnKraj_Click(object sender, RoutedEventArgs e)
@@ -166,7 +189,16 @@ namespace MainInterface
 
         private async Task checkLeftTempr()
         {
-            return;         //OVDE RADI OVU FUNKCIJU
+            CancellationToken c = new CancellationToken();
+            TimeSpan time = new TimeSpan(0, 0, 2); 
+
+            for (; !c.IsCancellationRequested;)
+            {
+                await periodicTest(time, c);
+
+                avgTempCheck();
+            }
+      
         }
 
         private void avgTempCheck()
@@ -186,13 +218,13 @@ namespace MainInterface
 
                 if(left>0)
                 {
-                    statusRegulatora.Content = "Status: Radi";
-                    statusRegulatora.Foreground = Brushes.DarkBlue;
+                    statusRegulatora.Content = "Stanje: Radi";
+                    statusRegulatora.Foreground = Brushes.Blue;
                     tempLeft.Content = "Preostalo: " + left.ToString().Replace(',', '.') + "°C";
                 }
                 else
                 {
-                    statusRegulatora.Content = "Status: Idle";
+                    statusRegulatora.Content = "Stanje: Idle";
                     statusRegulatora.Foreground = Brushes.DarkCyan;
 
                     tempLeft.Content = "Preostalo: " + "0.0" + "°C";
