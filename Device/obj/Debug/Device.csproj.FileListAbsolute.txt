@@ -33,3 +33,10 @@ C:\Users\vukas\OneDrive\Радна површина\UpdatedProject\Device\obj\De
 C:\Users\vukas\OneDrive\Радна површина\UpdatedProject\Device\obj\Debug\Device.csproj.CoreCompileInputs.cache
 C:\Users\vukas\OneDrive\Радна површина\UpdatedProject\Device\obj\Debug\Device.exe
 C:\Users\vukas\OneDrive\Радна површина\UpdatedProject\Device\obj\Debug\Device.pdb
+C:\Users\vukas\OneDrive\Радна површина\final\Device\bin\Debug\Device.exe.config
+C:\Users\vukas\OneDrive\Радна површина\final\Device\bin\Debug\Device.exe
+C:\Users\vukas\OneDrive\Радна површина\final\Device\bin\Debug\Device.pdb
+C:\Users\vukas\OneDrive\Радна површина\final\Device\obj\Debug\Device.csproj.AssemblyReference.cache
+C:\Users\vukas\OneDrive\Радна површина\final\Device\obj\Debug\Device.csproj.CoreCompileInputs.cache
+C:\Users\vukas\OneDrive\Радна површина\final\Device\obj\Debug\Device.exe
+C:\Users\vukas\OneDrive\Радна површина\final\Device\obj\Debug\Device.pdb
