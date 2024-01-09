@@ -10,9 +10,9 @@ namespace Logging
 {
     public class LogFile
     {
-        private string fileName = "log.txt";
+        private string fileName = "C:/Users/vukas/OneDrive/Радна површина/valjda_finalna_ocu_kraj/SmartThermoregulator/log.txt";
 
-        public LogFile(string fn = "log.txt")
+        public LogFile(string fn = "C:/Users/vukas/OneDrive/Радна површина/valjda_finalna_ocu_kraj/SmartThermoregulator/log.txt")
         {
             if (fileName == null)
             {

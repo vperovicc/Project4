@@ -31,7 +31,7 @@ namespace Logging
             lm = new LogMessage(message);
         }
 
-        public string Message_for_File
+        public string Message
         {
             get => message;
             set => message = value;
@@ -39,19 +39,19 @@ namespace Logging
 
         public void NewError()
         {
-            lf = new LogFile("log.txt");
+            lf = new LogFile("C:/Users/vukas/OneDrive/Радна површина/valjda_finalna_ocu_kraj/SmartThermoregulator/log.txt");
             lf.LogInFile(lm.GetError());
         }
 
         public void NewMessage()
         {
-            lf = new LogFile("log.txt");
+            lf = new LogFile("C:/Users/vukas/OneDrive/Радна површина/valjda_finalna_ocu_kraj/SmartThermoregulator/log.txt");
             lf.LogInFile(lm.GetMessage());
         }
 
         public void NewWarning()
         {
-            lf = new LogFile("log.txt");
+            lf = new LogFile("C:/Users/vukas/OneDrive/Радна површина/valjda_finalna_ocu_kraj/SmartThermoregulator/log.txt");
             lf.LogInFile(lm.GetWarning());
         }
     }
