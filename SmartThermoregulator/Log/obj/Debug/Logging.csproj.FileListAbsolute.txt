@@ -16,3 +16,9 @@ C:\Users\stefa\Desktop\Projekat1\SmartThermoregulator\Log\obj\Debug\Logging.cspr
 C:\Users\stefa\Desktop\Projekat1\SmartThermoregulator\Log\obj\Debug\Logging.csproj.CoreCompileInputs.cache
 C:\Users\stefa\Desktop\Projekat1\SmartThermoregulator\Log\obj\Debug\Log.dll
 C:\Users\stefa\Desktop\Projekat1\SmartThermoregulator\Log\obj\Debug\Log.pdb
+C:\Users\vukas\OneDrive\Радна површина\UpdatedProject\SmartThermoregulator\Log\bin\Debug\Log.dll
+C:\Users\vukas\OneDrive\Радна површина\UpdatedProject\SmartThermoregulator\Log\bin\Debug\Log.pdb
+C:\Users\vukas\OneDrive\Радна површина\UpdatedProject\SmartThermoregulator\Log\obj\Debug\Logging.csproj.AssemblyReference.cache
+C:\Users\vukas\OneDrive\Радна површина\UpdatedProject\SmartThermoregulator\Log\obj\Debug\Logging.csproj.CoreCompileInputs.cache
+C:\Users\vukas\OneDrive\Радна површина\UpdatedProject\SmartThermoregulator\Log\obj\Debug\Log.dll
+C:\Users\vukas\OneDrive\Радна површина\UpdatedProject\SmartThermoregulator\Log\obj\Debug\Log.pdb

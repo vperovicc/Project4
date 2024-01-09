@@ -169,9 +169,9 @@ namespace Heater
 
 
 
-        public async Task PeriodicnaProvera(TimeSpan interval, CancellationToken cancellationToken)
+        public async Task PeriodicnaProvera(TimeSpan i, CancellationToken ct)
         {
-            await Task.Delay(interval, cancellationToken);
+            await Task.Delay(i, ct);
         }
 
     }

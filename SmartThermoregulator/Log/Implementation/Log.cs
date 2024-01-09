@@ -16,12 +16,12 @@ namespace Logging
 
         public Log(string mess)
         {
-            if (message == null)
+            if (mess == null)
             {
                 throw new ArgumentNullException();
             }
 
-            if (message.Trim().Length == 0)
+            if (mess.Trim().Length == 0)
             {
                 throw new ArgumentException();
             }
