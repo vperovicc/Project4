@@ -1,0 +1,96 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "InterfaceMain/1.0.0": {
+        "dependencies": {
+          "Database": "1.0.0",
+          "Device": "1.0.0",
+          "Heater": "1.0.0",
+          "Log": "1.0.0",
+          "Regulator": "1.0.0"
+        },
+        "runtime": {
+          "InterfaceMain.dll": {}
+        }
+      },
+      "Database/1.0.0": {
+        "runtime": {
+          "Database.dll": {}
+        }
+      },
+      "Device/1.0.0": {
+        "runtime": {
+          "Device.exe": {}
+        }
+      },
+      "Heater/1.0.0": {
+        "runtime": {
+          "Heater.dll": {}
+        }
+      },
+      "Log/1.0.0": {
+        "runtime": {
+          "Log.dll": {}
+        }
+      },
+      "Regulator/1.0.0": {
+        "dependencies": {
+          "Device": "1.0.0"
+        },
+        "runtime": {
+          "Regulator.dll": {}
+        }
+      },
+      "Oracle.ManagedDataAccess/4.122.21.1": {
+        "runtime": {
+          "Oracle.ManagedDataAccess.dll": {
+            "assemblyVersion": "4.122.21.1",
+            "fileVersion": "4.122.21.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InterfaceMain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Database/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Device/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Heater/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Log/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Regulator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Oracle.ManagedDataAccess/4.122.21.1": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

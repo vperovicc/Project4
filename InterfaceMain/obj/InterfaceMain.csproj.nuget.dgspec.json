@@ -1,0 +1,223 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Projekat\\InterfaceMain\\InterfaceMain.csproj": {}
+  },
+  "projects": {
+    "F:\\Projekat\\Common\\Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projekat\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "F:\\Projekat\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\vukas\\.nuget\\packages\\",
+        "outputPath": "F:\\Projekat\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Projekat\\Device\\Device.csproj": {
+                "projectPath": "F:\\Projekat\\Device\\Device.csproj"
+              },
+              "F:\\Projekat\\Heater\\Heater.csproj": {
+                "projectPath": "F:\\Projekat\\Heater\\Heater.csproj"
+              },
+              "F:\\Projekat\\Regulator\\Regulator.csproj": {
+                "projectPath": "F:\\Projekat\\Regulator\\Regulator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projekat\\Database\\Database.csproj": {
+      "restore": {
+        "projectUniqueName": "F:\\Projekat\\Database\\Database.csproj",
+        "projectName": "Database",
+        "projectPath": "F:\\Projekat\\Database\\Database.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "F:\\Projekat\\Device\\Device.csproj": {
+      "restore": {
+        "projectUniqueName": "F:\\Projekat\\Device\\Device.csproj",
+        "projectName": "Device",
+        "projectPath": "F:\\Projekat\\Device\\Device.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "F:\\Projekat\\Heater\\Heater.csproj": {
+      "restore": {
+        "projectUniqueName": "F:\\Projekat\\Heater\\Heater.csproj",
+        "projectName": "Heater",
+        "projectPath": "F:\\Projekat\\Heater\\Heater.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "F:\\Projekat\\Database\\Database.csproj": {
+                "projectPath": "F:\\Projekat\\Database\\Database.csproj"
+              },
+              "F:\\Projekat\\Device\\Device.csproj": {
+                "projectPath": "F:\\Projekat\\Device\\Device.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "F:\\Projekat\\InterfaceMain\\InterfaceMain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projekat\\InterfaceMain\\InterfaceMain.csproj",
+        "projectName": "InterfaceMain",
+        "projectPath": "F:\\Projekat\\InterfaceMain\\InterfaceMain.csproj",
+        "packagesPath": "C:\\Users\\vukas\\.nuget\\packages\\",
+        "outputPath": "F:\\Projekat\\InterfaceMain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "F:\\Projekat\\Common\\Common.csproj": {
+                "projectPath": "F:\\Projekat\\Common\\Common.csproj"
+              },
+              "F:\\Projekat\\Device\\Device.csproj": {
+                "projectPath": "F:\\Projekat\\Device\\Device.csproj"
+              },
+              "F:\\Projekat\\Regulator\\Regulator.csproj": {
+                "projectPath": "F:\\Projekat\\Regulator\\Regulator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projekat\\Regulator\\Regulator.csproj": {
+      "restore": {
+        "projectUniqueName": "F:\\Projekat\\Regulator\\Regulator.csproj",
+        "projectName": "Regulator",
+        "projectPath": "F:\\Projekat\\Regulator\\Regulator.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "F:\\Projekat\\Device\\Device.csproj": {
+                "projectPath": "F:\\Projekat\\Device\\Device.csproj"
+              },
+              "F:\\Projekat\\Heater\\Heater.csproj": {
+                "projectPath": "F:\\Projekat\\Heater\\Heater.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
