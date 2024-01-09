@@ -25,6 +25,7 @@ namespace Logging
             message = mess;
         }
 
+
         public string GetMessage()
         {
             return string.Format("[INFORMATION] [{0}] {1}", DateTime.Now.ToString("dd-MM-yyyy HH:mm:ss"), message);

@@ -46,17 +46,19 @@ namespace MainInterface
             {
                 
                 string dir = Environment.CurrentDirectory;
-                dir = Directory.GetParent(dir).Parent.Parent.FullName;
+                dir = Directory.GetParent(dir).Parent.Parent.Parent.FullName;
 
                 Process process = new Process();
 
-                process.StartInfo.FileName = dir + "\\bin\\Debug\\Device.exe";
+                process.StartInfo.FileName = dir + "\\Device\\bin\\Debug\\Device.exe";
+                
                 process.StartInfo.Arguments = port[instance].ToString();
                 process.StartInfo.WindowStyle = ProcessWindowStyle.Minimized;
 
                 process.Start();
 
                 string stringConn = "tcp://localhost:" + port[instance].ToString() + "/Device";
+
                 Device.Device mr = RemotingServices.Connect(typeof(Device.Device), stringConn) as Device.Device;
 
                 if (devices.AddDevice(mr))
