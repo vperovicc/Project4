@@ -47,3 +47,9 @@ C:\Users\vukas\OneDrive\Радна површина\valjda_finalna_ocu_kraj\Devi
 C:\Users\vukas\OneDrive\Радна површина\valjda_finalna_ocu_kraj\Device\obj\Debug\Device.csproj.CoreCompileInputs.cache
 C:\Users\vukas\OneDrive\Радна површина\valjda_finalna_ocu_kraj\Device\obj\Debug\Device.exe
 C:\Users\vukas\OneDrive\Радна површина\valjda_finalna_ocu_kraj\Device\obj\Debug\Device.pdb
+C:\Users\vukas\OneDrive\Радна површина\aaa_kraj\Device\bin\Debug\Device.exe.config
+C:\Users\vukas\OneDrive\Радна површина\aaa_kraj\Device\bin\Debug\Device.exe
+C:\Users\vukas\OneDrive\Радна површина\aaa_kraj\Device\bin\Debug\Device.pdb
+C:\Users\vukas\OneDrive\Радна површина\aaa_kraj\Device\obj\Debug\Device.csproj.CoreCompileInputs.cache
+C:\Users\vukas\OneDrive\Радна површина\aaa_kraj\Device\obj\Debug\Device.exe
+C:\Users\vukas\OneDrive\Радна површина\aaa_kraj\Device\obj\Debug\Device.pdb

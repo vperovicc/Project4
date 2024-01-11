@@ -34,3 +34,9 @@ C:\Users\vukas\OneDrive\Радна површина\valjda_finalna_ocu_kraj\Smar
 C:\Users\vukas\OneDrive\Радна површина\valjda_finalna_ocu_kraj\SmartThermoregulator\Log\obj\Debug\Logging.csproj.CoreCompileInputs.cache
 C:\Users\vukas\OneDrive\Радна површина\valjda_finalna_ocu_kraj\SmartThermoregulator\Log\obj\Debug\Log.dll
 C:\Users\vukas\OneDrive\Радна површина\valjda_finalna_ocu_kraj\SmartThermoregulator\Log\obj\Debug\Log.pdb
+C:\Users\vukas\OneDrive\Радна површина\aaa_kraj\SmartThermoregulator\Log\bin\Debug\Log.dll
+C:\Users\vukas\OneDrive\Радна површина\aaa_kraj\SmartThermoregulator\Log\bin\Debug\Log.pdb
+C:\Users\vukas\OneDrive\Радна површина\aaa_kraj\SmartThermoregulator\Log\obj\Debug\Logging.csproj.CoreCompileInputs.cache
+C:\Users\vukas\OneDrive\Радна површина\aaa_kraj\SmartThermoregulator\Log\obj\Debug\Log.dll
+C:\Users\vukas\OneDrive\Радна површина\aaa_kraj\SmartThermoregulator\Log\obj\Debug\Log.pdb
+C:\Users\vukas\OneDrive\Радна површина\aaa_kraj\SmartThermoregulator\Log\obj\Debug\Logging.csproj.AssemblyReference.cache

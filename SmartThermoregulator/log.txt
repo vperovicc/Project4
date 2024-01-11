@@ -1,11 +1,12 @@
-[INFORMATION] [10-01-2024 00:18:34] Ukljucivanje centralne peci!
-[INFORMATION] [10-01-2024 00:18:34] Uredjaj [1827]: Temperatura: -3.54°C
-[INFORMATION] [10-01-2024 00:18:34] Uredjaj [5285]: Temperatura: 15.94°C
-[INFORMATION] [10-01-2024 00:18:34] Uredjaj [6931]: Temperatura: 17.33°C
-[INFORMATION] [10-01-2024 00:18:34] Uredjaj [1262]: Temperatura: -4.69°C
-[INFORMATION] [10-01-2024 00:18:34] Uredjaj [1827]: Temperatura: -5.95°C
-[INFORMATION] [10-01-2024 00:18:34] Uredjaj [1827]: Temperatura: -0.930000000000001°C
-[INFORMATION] [10-01-2024 00:18:34] Uredjaj [1827]: Temperatura: 4.09°C
-[INFORMATION] [10-01-2024 00:18:34] Uredjaj [1827]: Temperatura: 9.11°C
-[INFORMATION] [10-01-2024 00:18:34] Uredjaj [1827]: Temperatura: 14.13°C
-[INFORMATION] [10-01-2024 00:18:34] Prosecna temperatura: 5.05444444444444°C
+[INFORMATION] [11-01-2024 19:11:50] Ukljucivanje centralne peci!
+[INFORMATION] [11-01-2024 19:11:50] Uredjaj [9050]: Temperatura: 32.93°C
+[INFORMATION] [11-01-2024 19:11:50] Uredjaj [7807]: Temperatura: 20.53°C
+[INFORMATION] [11-01-2024 19:11:50] Uredjaj [7885]: Temperatura: 30.42°C
+[INFORMATION] [11-01-2024 19:11:50] Uredjaj [8659]: Temperatura: 30.86°C
+[INFORMATION] [11-01-2024 19:11:50] Uredjaj [9050]: Temperatura: 37.95°C
+[INFORMATION] [11-01-2024 19:11:50] Uredjaj [9050]: Temperatura: 42.97°C
+[INFORMATION] [11-01-2024 19:11:50] Uredjaj [9050]: Temperatura: 47.99°C
+[INFORMATION] [11-01-2024 19:11:50] Uredjaj [9050]: Temperatura: 53.01°C
+[INFORMATION] [11-01-2024 19:11:50] Uredjaj [9050]: Temperatura: 58.03°C
+[INFORMATION] [11-01-2024 19:11:50] Prosecna temperatura: 39.41°C
+[INFORMATION] [11-01-2024 19:11:55] Centralna pec je iskljucena!
